@@ -183,7 +183,7 @@ val list: kotlin.collections.List<String> = java.util.ArrayList()
 ```
 In fact, there is no sacrosanct mystery. Kotlins’ Collections implements interface List of Java. Let’s take a look at the kotlin.collections.Collection.kt. file.
 
-![Screenshot](https://github.com/steelkiwi/collection_in_kotlin/tree/master/img.png)
+![Screenshot](https://github.com/steelkiwi/collection_in_kotlin/blob/master/data/img.png)
 
 As mentioned before, this file contains all Extension Functions for Collections. Here you can see that it is possible to use all these functions in Java by means of CollectionsKt class. Also here is cherished import java.util.*;
 * Let’s check what we get in Java code:
