@@ -2,9 +2,9 @@
 
 ### About Kotlin development
 
-Kotlin app development is gaining popularity among the Java developers. If you missed this topic by some reason, we strongly recommend to take a look at this [survey](http://steelkiwi.com/blog/getting-started-kotlin-libraries-Glide-Dagger/).
+Developing android app with Kotlin is gaining popularity among the Java developers. If you missed this topic by some reason, we strongly recommend to take a look at this [survey](http://steelkiwi.com/blog/getting-started-kotlin-libraries-Glide-Dagger/).
 
-This topic is relevant for versed developers that have serious intentions to come to grips with Kotlin and to be in the forefront of the trends, of course. Let’s look into it together, it will be exciting!
+This topic is relevant for versed developers that have serious intentions to come to grips with Kotlin and to be in the forefront of the trends, of course. Let’s look how to use collections in Kotlin together, it will be exciting!
 
 Kotlin’s Collections are based on [Java Collection Framework](https://www.tutorialspoint.com/java/java_collections.htm). This article focuses on some features of [kotlin.collections](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/) package.
 
@@ -128,7 +128,7 @@ As you can see there is no add() method, no remove() method or any other else me
 val list: kotlin.collections.MutableList<String> = java.util.ArrayList()
 list.add("string")
 ```
-Better look at  the source code yourself:
+Better look the Kotlin example at the source code yourself:
 ```kotlin
 public interface MutableList<E> : List<E>, MutableCollection<E> {
    // Modification Operations
@@ -196,4 +196,4 @@ java.util.List<Integer> filteredList = CollectionsKt.filter(list, item -> item >
 You can now see in sober fact that Kotlin works with List Java and all Extension Functions are accessible as static methods.
 ## Let’s sum it up
 
-Kotlin turned out to be a rich language that can help us to write cleaner and safer code. And the great addition is that it is fully compatible with Java. Read more informative articles in our [blog](http://steelkiwi.com/blog/) and follow our feed. [SteelKiwi](http://steelkiwi.com/) team will try our best to surprise you!
+Android programming language Kotlin turned out to be a rich language that can help us to write cleaner and safer code. And the great addition is that it is fully compatible with Java. Read more informative articles in our [blog](http://steelkiwi.com/blog/) and follow our feed. [SteelKiwi](http://steelkiwi.com/) team will try our best to surprise you!
