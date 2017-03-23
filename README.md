@@ -1,5 +1,8 @@
 # Collections in Kotlin
 
+
+[![Made in SteelKiwi](https://github.com/steelkiwi/Getting-started-with-Kotlin/blob/master/made_in_steelkiwi.png)](http://steelkiwi.com/blog/collections-kotlin/)
+
 ### About Kotlin development
 
 Developing android app with Kotlin is gaining popularity among the Java developers. If you missed this topic by some reason, we strongly recommend to take a look at this [survey](http://steelkiwi.com/blog/getting-started-kotlin-libraries-Glide-Dagger/).
